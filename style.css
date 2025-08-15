@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.overlay {
+    position: relative;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    padding: 20px;
+}
+
+.title {
+    font-size: 2.2rem;
+    color: #2f5d42;
+    text-shadow: 1px 1px #fff;
+    margin-bottom: 15px;
+}
+
+.photo {
+    width: 260px;
+    border-radius: 18px;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.3);
+    border: 3px solid #ffffffcc;
+}
+
+/* chữ bay */
+.floating-message {
+    position: absolute;
+    font-size: 1.5rem; /* to hơn */
+    font-weight: bold;
+    opacity: 0;
+    white-space: nowrap;
+    z-index: 5;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+/* ảnh phụ bay */
+.floating-image {
+    position: absolute;
+    max-width: 150px; /* to hơn */
+    max-height: 150px; /* to hơn */
+    opacity: 0;
+    z-index: 4;
+    border-radius: 15px;
+    border: 3px solid #ffffffcc;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
