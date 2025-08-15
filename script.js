@@ -5,6 +5,9 @@ const messages = [
     "Anh luôn bên em 💚",
     "Mang ngay bài thi tới đây 🌿",
     "Ai sợ đi về 😗",
+    "Em chắc chắn làm được 🤍",
+    "Xinhiu 10 điểm 🤍",
+    "Em bé quá đỉnh 🤍",
     "Mãi được yêu thương 🤍",
     "Mỗi ngày là một niềm vui mới 🌼",
     "Ước mơ sớm thành hiện thực 🌟",
@@ -132,4 +135,5 @@ window.addEventListener('click', () => {
     music.muted = false;
     music.play();
 }, { once: true });
+
 
