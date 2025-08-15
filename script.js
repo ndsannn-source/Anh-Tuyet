@@ -3,6 +3,8 @@ const messages = [
     "Mạnh mẽ và hạnh phúc 🍀",
     "Những điều tốt đẹp sẽ đến 🌿",
     "Anh luôn bên em 💚",
+    "Mang ngay bài thi tới đây 🌿",
+    "Ai sợ đi về 😗",
     "Mãi được yêu thương 🤍",
     "Mỗi ngày là một niềm vui mới 🌼",
     "Ước mơ sớm thành hiện thực 🌟",
@@ -130,3 +132,4 @@ window.addEventListener('click', () => {
     music.muted = false;
     music.play();
 }, { once: true });
+
